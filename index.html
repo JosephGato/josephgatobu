@@ -300,16 +300,47 @@ solutions..</p>
 				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
 					<div class="gallery-single spi-hr fix">
 						<img src="uploads/gallery_img-03.jpg" class="img-fluid" alt="Image">
-						<div class="text-hover">
-							<h3>Graphic Design</h3>
-							<h4>by Jose</h4>
-						</div>
-						
-						<div class="website-link">
-							<a href="https://josetexaskitchen.netlify.app/" target="_blank" class="btn btn-primary">Visit Website</a>
+						<div class="website-hover">
+							<a href="https://josetexaskitchen.netlify.app/" target="_blank" class="btn btn-primary">Visit my website</a>
 						</div>
 					</div>
 				</div>
+				
+				<style>
+					.gallery-single {
+						position: relative;
+						overflow: hidden;
+					}
+					.gallery-single img {
+						display: block;
+						width: 100%;
+						height: auto;
+					}
+					.website-hover {
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: 100%;
+						height: 100%;
+						background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						opacity: 0;
+						transition: opacity 0.3s ease;
+					}
+					.gallery-single:hover .website-hover {
+						opacity: 1;
+					}
+					.website-hover a {
+						color: #fff;
+						text-decoration: none;
+						font-size: 20px;
+						padding: 10px 20px;
+						background: #007bff; /* Button background color */
+						border-radius: 5px;
+					}
+				</style>
 				
 				
 				<div class="col-md-4 col-sm-6 gallery-grid gal_b gal_a">
