@@ -661,16 +661,6 @@ xclip
 .right-box-pro img{
 	z-index: 2;
 }
-.right-box-pro::before {
-    
-}
-
-.fat-ab{}
-
-
-
-
-
 
 .services-inner-box{
 	padding: 15px;
@@ -1586,16 +1576,6 @@ hr.invis1 {
 	opacity: 1;
 	top: 50%;
 }
-
-.spi-hr{}
-
-.spi-hr *, .spi-hr::before, .spi-hr::after {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-}
-
 .spi-hr::before, .spi-hr::after {
     position: absolute;
     top: 20px;
@@ -2436,7 +2416,7 @@ select.mobile-device {
     font-weight: 400;
     font-size: 20px;
     text-transform: capitalize;
-    line-height: !important;
+    line-height:1.5 !important;
 }
 
 .footer {
@@ -2684,7 +2664,7 @@ select.mobile-device {
     color: #999 !important;
     margin: 0 !important;
     padding: 0 !important;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
 
 .stat-wrap p {
@@ -2693,7 +2673,7 @@ select.mobile-device {
     margin: 0;
     font-weight: 300;
     padding: 4px 0 0;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
 
 #preloader {
