@@ -2217,14 +2217,14 @@ select.mobile-device {
 }
 
 .contact_form {
-    border: 1px solid #ededed;
+    border: 4px solid #06cee9;
     box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
     background-color: transparent;
     padding: 40px 30px;
 }
 
 .contact_form .form-control {
-    background-color: #333333;
+    background-color: #011d42e8;
     margin-bottom: 30px;
     border: 1px solid #ebebeb;
     box-sizing: border-box;
