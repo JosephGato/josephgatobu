@@ -311,7 +311,7 @@ a img.aligncenter {
 }
 
 .navbar-dark .navbar-nav .nav-link{
-	color: #292929;
+	color: #000000;
 	letter-spacing: 1px;
 	font-size: 14px;
 	position: relative;
@@ -1255,7 +1255,7 @@ xclip
 .service-widget h3 a,
 .section.wb .service-widget h3,
 .section.lb .service-widget h3 {
-    color: #1f1f1f;
+    color: #000000;
 }
 
 .service-widget p {
@@ -1270,7 +1270,7 @@ xclip
     font-weight: 600;
     letter-spacing: 0.5px;
     font-size: 15px;
-    color: #999;
+    color: #020202;
 }
 
 .message-box h2 {
@@ -1295,7 +1295,7 @@ xclip
 }
 
 .message-box ul li b{
-	color: #292929;
+	color: #000000;
 	font-size: 22px;
 	margin-right: 15px;
 }
