@@ -2825,3 +2825,32 @@ select.mobile-device {
     background: #007bff; /* Buttoswn background color */
     border-radius: 5px;
 }
+/* WhatsApp Button Styles */
+.whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #25D366; /* WhatsApp green */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    position: fixed; /* Sticky position */
+    bottom: 20px; /* Adjust distance from the bottom */
+    right: 20px; /* Adjust distance from the right */
+    z-index: 1000;
+  }
+  
+  .whatsapp-button:hover {
+    background-color: #ffffff; /* Darker green on hover */
+    text-decoration-color: #25D366;
+  }
+  
+  .whatsapp-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
