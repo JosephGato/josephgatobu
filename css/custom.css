@@ -1,2 +1,110 @@
 
-/** ADD YOUR AWESOME CODES HERE **/
+/* =================================
+   GEMINI FLOATING AI CHAT WIDGET
+================================= */
+
+/* Floating Chat Button */
+#gemini-toggle {
+    position: fixed !important;
+    right: 25px !important;
+    bottom: 25px !important;
+    top: auto !important;
+    left: auto !important;
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #0d6efd;
+    color: #fff;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 999999 !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* Floating Chat Window */
+#gemini-chatbox {
+    position: fixed !important;
+    right: 25px !important;
+    bottom: 100px !important;
+    top: auto !important;
+    left: auto !important;
+
+    width: 360px;
+    height: 450px;
+
+    display: none;
+    flex-direction: column;
+
+    background: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+
+    box-shadow: 0 5px 25px rgba(0,0,0,0.25);
+    z-index: 999998 !important;
+}
+
+/* Chat Header */
+.gemini-header {
+    background: #0d6efd;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Messages Area */
+#gemini-messages {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    background: #f8f9fa;
+}
+
+/* Input Area */
+.gemini-input-area {
+    display: flex;
+    gap: 8px;
+    padding: 12px;
+    background: white;
+    border-top: 1px solid #ddd;
+}
+
+#gemini-input {
+    flex: 1;
+    min-width: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+#gemini-send {
+    background: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 480px) {
+    #gemini-chatbox {
+        width: calc(100% - 30px);
+        height: 70vh;
+        right: 15px !important;
+        bottom: 90px !important;
+    }
+
+    #gemini-toggle {
+        right: 15px !important;
+        bottom: 15px !important;
+    }
+}
