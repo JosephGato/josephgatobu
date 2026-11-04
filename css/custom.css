@@ -7,7 +7,7 @@
     position: fixed !important;
     top: 25px !important;
     right: 30px !important;
-    bottom: auto !important;
+    bottom: 25px !important;
     left: auto !important;
 
     display: inline-flex !important;
