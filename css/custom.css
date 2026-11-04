@@ -1,110 +1,91 @@
 
-/* =================================
-   GEMINI FLOATING AI CHAT WIDGET
-================================= */
+/* ==========================================
+   JOSE AI ASSISTANT - FLOATING LAUNCHER
+========================================== */
 
-/* Floating Chat Button */
-#gemini-toggle {
+#jose-ai-launcher {
     position: fixed !important;
-    right: 25px !important;
-    bottom: 25px !important;
-    top: auto !important;
+    top: 25px !important;
+    right: 30px !important;
+    bottom: auto !important;
     left: auto !important;
 
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: #0d6efd;
-    color: #fff;
-    border: none;
-    font-size: 25px;
-    cursor: pointer;
+    display: inline-flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    height: 50px !important;
 
-    z-index: 999999 !important;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    padding: 0 22px !important;
+    margin: 0 !important;
+
+    gap: 12px !important;
+
+    background: #0866ff !important;
+    color: #ffffff !important;
+
+    border: none !important;
+    border-radius: 30px !important;
+
+    font-family: Arial, sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    line-height: 1 !important;
+
+    white-space: nowrap !important;
+    text-align: center !important;
+
+    cursor: pointer !important;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2) !important;
+
+    z-index: 2147483647 !important;
 }
 
-/* Floating Chat Window */
-#gemini-chatbox {
-    position: fixed !important;
-    right: 25px !important;
-    bottom: 100px !important;
-    top: auto !important;
-    left: auto !important;
+/* Chat Icon */
+#jose-ai-launcher i {
+    display: inline-block !important;
+    position: static !important;
 
-    width: 360px;
-    height: 450px;
+    font-size: 21px !important;
+    line-height: 1 !important;
 
-    display: none;
-    flex-direction: column;
-
-    background: #ffffff;
-    border-radius: 15px;
-    overflow: hidden;
-
-    box-shadow: 0 5px 25px rgba(0,0,0,0.25);
-    z-index: 999998 !important;
+    color: #ffffff !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
-/* Chat Header */
-.gemini-header {
-    background: #0d6efd;
-    color: white;
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+/* Assistant Text */
+#jose-ai-launcher span {
+    display: inline-block !important;
+    position: static !important;
+
+    white-space: nowrap !important;
+    line-height: 1 !important;
+
+    color: #ffffff !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
-/* Messages Area */
-#gemini-messages {
-    flex: 1;
-    padding: 15px;
-    overflow-y: auto;
-    background: #f8f9fa;
+/* Hover */
+#jose-ai-launcher:hover {
+    background: #084298 !important;
+    transform: translateY(-2px);
 }
 
-/* Input Area */
-.gemini-input-area {
-    display: flex;
-    gap: 8px;
-    padding: 12px;
-    background: white;
-    border-top: 1px solid #ddd;
-}
-
-#gemini-input {
-    flex: 1;
-    min-width: 0;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-}
-
-#gemini-send {
-    background: #0d6efd;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    padding: 10px 15px;
-    cursor: pointer;
-}
-
-/* Mobile Responsiveness */
-@media (max-width: 480px) {
-    #gemini-chatbox {
-        width: calc(100% - 30px);
-        height: 70vh;
+/* Mobile */
+@media screen and (max-width: 480px) {
+    #jose-ai-launcher {
+        top: 15px !important;
         right: 15px !important;
-        bottom: 90px !important;
-    }
-
-    #gemini-toggle {
-        right: 15px !important;
-        bottom: 15px !important;
+        height: 44px !important;
+        padding: 0 15px !important;
+        font-size: 13px !important;
+        gap: 8px !important;
     }
 }
